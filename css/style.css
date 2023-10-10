@@ -135,11 +135,6 @@ margin: 1em auto;
   clear: both;
 }
 
-footer {
-  padding: 1em 0;
-  margin-bottom: 1em;
-  }
-
 .grid {
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -152,7 +147,7 @@ max-width: 100%;
 border-radius: 0.4em;
 }
 
-.image-grid #item-to-span {
+.grid #item-to-span {
   grid-column: 1 / 4;
 }
 
@@ -198,74 +193,68 @@ h3 {
   padding-bottom: 2em;
 }
 
-/* .vday-text {
-  padding: .5em;
-}
-
-
-#reviews h2 {
+#feedback h2 {
   font-size: var(--font-size-md);
   text-align: center;
   text-transform: none;
-  padding: 1.5em 0 1em 0;
+  padding: 1.5em 0 1em 0; 
 }
 
-#reviews p,
-#reviews cite {
+#feedback p,
+#feedback cite {
   font-size: var(--font-size-base);
   text-align: left;
   margin-bottom: 1em;
 }
 
-
-
-
-#tryitwith {
+#try {
   padding: 1em;
 }
 
-#tryitwith h2 {
+#try h2 {
   font-size: var(--font-size-md);
   text-align: center;
   text-transform: none;
-  margin: 1em 0 1em 0;
+  margin: 1em 0 1em 0; 
 }
 
-#tryitwith::after {
+#try::after{
   content: "";
   display: block;
   height: .25em;
-  background-color: var(--lightgrey);
+  background-color: aliceblue;
   margin-top: 4em;
-  clear: both;
+  clear: both; 
 }
 
-.icecream-flavors {
+.products-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
   gap: 1.5em;
 }
 
-
-
-
-.icecream-flavors article {
+.products-grid article {
   border-radius: .5em;
-  background-color: var(--lightgrey);
+  background-color: aliceblue;
   width: fit-content;
 }
 
-.icecream-flavors img {
+.products-grid img {
   border-top-right-radius: .5em;
   border-top-left-radius: .5em;
 }
 
-.icecream-flavors article h3 {
+.products-grid article h3 {
   font-size: var(--font-size-base);
   font-weight: 700;
   margin-top: 1em;
-} */
+}
+
+footer {
+  padding: 1em 0;
+  margin-bottom: 1em;
+  }
 
 @media (min-width: 48em){
   
