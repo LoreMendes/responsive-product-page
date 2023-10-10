@@ -75,6 +75,14 @@ nav ul {
   color: #222;
 }
 
+#intro {
+  padding: .5em;
+}
+
+#intro p {
+    font-size: var(--font-size-sm);
+}
+
 #header > div {
 display: flex;
 justify-content: space-between;
@@ -117,6 +125,16 @@ gap: 1em;
 margin: 1em auto;
 }
 
+#products::after {
+  content: "";
+  display: block;
+  height: .2em;
+  background-color: aliceblue;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  clear: both;
+}
+
 footer {
   padding: 1em 0;
   margin-bottom: 1em;
@@ -138,9 +156,116 @@ border-radius: 0.4em;
   grid-column: 1 / 4;
 }
 
-.wrapper h2 {
-  text-align: center;
+h1 {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  margin-bottom: 0;
 }
+
+h2 {
+  font-size: var(--font-size-base);
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: var(--font-size-base);
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+#content  {
+  padding: 1em;
+  margin-bottom: 2em;
+  }
+
+#content p {
+  font-size: var(--font-size-base);
+  display: grid;
+}
+
+#content h2 {
+    font-size: var(--font-size-md);
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 1.5em;
+  }
+
+#feedback {
+  background-color: var(--black);
+  width: 100%;
+  color: white;
+  padding-bottom: 2em;
+}
+
+/* .vday-text {
+  padding: .5em;
+}
+
+
+#reviews h2 {
+  font-size: var(--font-size-md);
+  text-align: center;
+  text-transform: none;
+  padding: 1.5em 0 1em 0;
+}
+
+#reviews p,
+#reviews cite {
+  font-size: var(--font-size-base);
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+
+
+
+#tryitwith {
+  padding: 1em;
+}
+
+#tryitwith h2 {
+  font-size: var(--font-size-md);
+  text-align: center;
+  text-transform: none;
+  margin: 1em 0 1em 0;
+}
+
+#tryitwith::after {
+  content: "";
+  display: block;
+  height: .25em;
+  background-color: var(--lightgrey);
+  margin-top: 4em;
+  clear: both;
+}
+
+.icecream-flavors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  gap: 1.5em;
+}
+
+
+
+
+.icecream-flavors article {
+  border-radius: .5em;
+  background-color: var(--lightgrey);
+  width: fit-content;
+}
+
+.icecream-flavors img {
+  border-top-right-radius: .5em;
+  border-top-left-radius: .5em;
+}
+
+.icecream-flavors article h3 {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  margin-top: 1em;
+} */
 
 @media (min-width: 48em){
   
