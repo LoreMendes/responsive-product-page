@@ -11,13 +11,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <div class="wrapper">
 
   <header id="header">
     <div class="wrapper">
 
-      <img src="images/doughp-logo.webp" alt="animated doughp logo in black"/>
+      <img id="logo" src="images/doughp-logo.webp" alt="animated doughp logo in black"/>
 
       <nav>
         <ul>
@@ -27,38 +27,38 @@
       </nav>
       </div>
     </header>
+
     <section id="banner">
       <img src="images/product-shot-1.webp" alt="a cookie dough drops bag"/>
     </section>
 
+    <main>
+
     <section id="products">
-      <ol>
-        <!-- <li>
-          <img src="images/product-shot-1.webp" alt="a cookie dough drops bag"/>
-        </li> -->
-        <li>
-          <img src="images/product-shot-2.webp" alt="a cookie dough drops bag and plates with a hand grabbing one"/>
-        </li>
-        <li>
-          <img src="images/product-shot-3.webp" alt="a cup with doughp where it says chocolate chips"/>
-        </li>
-        <li>
-          <img src="images/product-shot-4.webp" alt="a cup with doughp where it says real peanut butter and mini hersheys kisses"/>
-        </li>
-        </ol>
-      <main>
+      
+        <div class="wrapper">
+          <div class="container">
+  
+            <div class="image-grid">
+              <img id="item-to-span" src="images/product-shot-1.webp" alt="a cookie dough drops bag">
+              <img src="images/product-shot-2.webp" alt="a cookie dough drops bag and plates with a hand grabbing one">
+              <img src="images/product-shot-3.webp" alt="a cup with doughp where it says chocolate chips">
+              <img src="images/product-shot-4.webp" alt="a cup with doughp where it says real peanut butter and mini hersheys kisses">
+            </div>
 
         <section id="intro">
-          <div class="wrapper">
+          
             <h1>Valentine's Day "Bite Me"</h1>
-            <p>Limited edition
-            <p>Red Velvet Cupcake, Peanut Butter Kiss and Chocolate Chip<p>
+            <h2>Limited edition
+            <h3>Red Velvet Cupcake, Peanut Butter Kiss and Chocolate Chip<p>
             <p>$55.00</p>
             <p>For the 6th Valentine’s Day in a row, Red Velvet Vixen is back by popular demand and this time she's bite-sized! A luscious blend of red velvet cake and cream cheese frosting whipped into our blonde cookie dough, served up bite-sized for the first time ever!</p>
             <p>In this Valentine's Day 3-pack you'll receive Red Velvet Vixen, Peanut Butter Kiss, and our classic Ride or Die, chocolate chip. It makes a perfect gift your Valentine can take a bite out of!</p>
-            <a href="#">Add to cart</a>
+            <a id="button" href="#">Add to cart</a>
           </div>
-        </section>
+        </div>
+      </div>
+    </section>
 
         <section id="content">
           <div class="wrapper">
@@ -72,20 +72,22 @@
           <div class="wrapper">
             <h2>What people are saying</h2>
 
-            <ol>
-              <li>
+            <div>
+              <blockquote>
                 <p>"It’s just so Doughp! I didn’t know what to expect, but I am so addicted now. Every flavor was delicious and I honestly can’t wait to try even more!"</p>
-                <p>Andrew J.</p>
-              </li>
-              <li>
+                <cite>Andrew J.</cite>
+              </blockquote>
+    
+              <blockquote>
                 <p>"Great product. Absolutely loved Doughp. Tasted great, came quickly and I love a good cause. Was happy I chose the four pack so that I could try a few flavors."</p>
-                <p>Emely W.</p>
-              </li>
-              <li>
+                <cite>Emely W.</cite>
+              </blockquote>
+    
+              <blockquote>
                 <p>"Life changing! This is something you absolutely need to indulge in. Our entire family is obsessed."</p>
-                <p>Ana S.</p>
-              </li>
-            </ol>
+                <cite>Ana S.</cite>
+              </blockquote>
+            </div>
           </div>
         </section>
 
@@ -123,12 +125,10 @@
     </main>
 
     <footer role="contentinfo">
-
-      <small>&copy; 2023 Doughp Cookie Dough</small>
-
+      <div class="wrapper">
+        <small>&copy; 2023 Doughp Cookie Dough</small>
+      </div>
     </footer>
-
-</div>
 
 </body>
 </html>
