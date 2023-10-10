@@ -57,7 +57,12 @@ nav ul {
   width: 10em;
 }
 
-#intro a {
+.container {
+  display: flex;
+  gap: 1.5em
+}
+
+.intro a {
   height: fit-content;
   width: fit-content;
   padding: .7em;
@@ -70,17 +75,17 @@ nav ul {
   font-weight: 400;
 }
 
-#intro a:hover {
+.intro a:hover {
   background-color: #fff;
   color: #222;
 }
 
-#intro {
+.intro {
   padding: .5em;
 }
 
-#intro p {
-    font-size: var(--font-size-sm);
+.intro p {
+  font-size: var(--font-size-sm);
 }
 
 #header > div {
@@ -187,7 +192,7 @@ h3 {
   }
 
 #feedback {
-  background-color: var(--black);
+  background-color: black;
   width: 100%;
   color: white;
   padding-bottom: 2em;
@@ -326,8 +331,8 @@ footer {
     margin-top: 0;
   }
 
-  #intro h2,
-  #intro h3 {
+  .intro h2,
+  .intro h3 {
     font-size: var(--font-size-sm);
   }
 
