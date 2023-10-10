@@ -8,10 +8,6 @@
   --font-size-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
 }
 
-* {
-  box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
@@ -33,6 +29,7 @@ body {
 img {
   display: block;
   max-width: 100%;
+  border-radius: 4px;
 }
 
 .wrapper {
@@ -68,8 +65,6 @@ font-size: small;
   color: #222;
 }
 
-}
-
 #header > div {
 display: flex;
 justify-content: space-between;
@@ -97,12 +92,16 @@ nav ul li a:focus {
 color: white;
 }
 
+#banner {
+margin: 2em auto;
+}
+
 #products ol li {
 display: grid;
-width: 60%;
+grid-template-columns: 1fr 1fr 1fr;
+width: 30%;
 gap: 1em;
-margin-top: 1em;
-margin: 2em auto;
+margin: 1em auto;
 }
 
 #feedback {
@@ -125,11 +124,13 @@ grid-template-columns: 1fr 1fr;
 gap: 1em;
 margin-top: 1em 1em;
 text-align: center;
+background-color: aliceblue;
 }
 
 .grid article img {
 width: 80%;
 align-items: center;
+border-radius: 4px;
 }
 
 .wrapper h2 {
