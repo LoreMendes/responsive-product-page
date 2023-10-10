@@ -35,6 +35,7 @@ img {
 .wrapper {
   margin: 0 auto;
   padding: 1em;
+  max-width: 35em;
 }
 
 header,
@@ -42,10 +43,18 @@ footer {
   text-align:center;
 }
 
+header {
+  margin-top: 1em;
+}
+
 nav ul {
   list-style: none;
-  padding-left: 0;
   text-transform: uppercase;
+  display: flex;
+}
+
+#logo img {
+  width: 10em;
 }
 
 #intro a {
@@ -69,16 +78,13 @@ font-size: small;
 display: flex;
 justify-content: space-between;
 align-items: center;
-}
-
-nav ul {
-list-style-type: none;
-padding-left: 0;
-display: flex;
+padding-bottom: 0;
 }
 
 nav ul li {
 padding-left: 1.125em;
+font-size: var(--font-size-base);
+font-weight: 500;
 }
 
 nav ul li a:link,
